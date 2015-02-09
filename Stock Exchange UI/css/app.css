@@ -1,0 +1,140 @@
+/* CSS Document */
+
+*{
+	margin:0 auto;
+	padding:0;
+	font-family:tahoma;
+}
+#mainwrapper{
+    background:#FFFFDE;
+    height: 1000px;
+    width: 1000px;
+}
+header{
+    background:  #333333;
+    color: white;
+    height: 300px;
+    width: 1000px;
+}
+header nav {
+    background:	#000000;
+    height: 35px;
+    width: 1000px;
+}
+header nav a {
+    display: inline-block;
+    padding: 6px 0 0 60px;
+    text-decoration: none;
+}
+header p {
+  font: 15px Helvetica,sans-serif;
+  padding-top:20px;
+    font-size: 2.5em;
+    text-align: center;
+}
+header nav a:hover {
+    color: #ffcc66;
+}
+.logo {
+    height: 220px;
+    width: 1000px;
+}
+#containerbody{
+	width:1000px;
+	height:700px;
+	position:relative;
+	top:0px;
+	left:0px;
+	}
+#wrapper{
+	left: 8px;
+    margin: 0 auto;
+    position: absolute;
+    top: 66px;
+    width: 984px;
+}
+.row,.heading{
+	overflow:hidden;
+}
+.heading,.block{
+	background-color:#4FAAF7;
+	color:#FFFFFF;
+
+}
+.cell,.block{
+	display:inline-block;
+	width:200px;
+	padding:15px;
+	font-size:14px
+}
+.row:nth-child(even){
+	background:#E2E2E2;
+}
+#wrapper input[type=text]{
+	border:none;
+	background:none;
+	width:60px
+}
+#mask{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: #000;
+	filter: alpha(opacity = 50);
+	-moz-opacity: .3;
+	opacity: .3;
+	z-index: 4000;	
+}
+#overlay{
+	width: 465px;
+	background-color: #fff;
+	clear: both;
+	padding: 8px 17px 35px;
+	position: absolute;
+	top: 10%;
+	border: 1px solid #ccc;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	-moz-box-shadow: 1px 1px 15px #333;
+	-webkit-box-shadow: 1px 1px 15px #333;
+	box-shadow: 1px 1px 15px #333;
+	z-index: 8001;
+	left: 27%;
+	display:none
+}
+#overlay a{
+	padding:10px;
+	background:#91C8F7;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	color:#ffffff;
+	display:inline-block;
+	text-decoration:none;
+	font-size:11px
+}
+.row .cell:first-child input[type=button]{
+	display:none
+}
+
+#overlay input[type=text]{
+	width:80px
+}
+#overlay  input[type=button]{
+	display:none
+}
+footer {
+    background:black;
+    height: 50px;
+    width: 1000px;
+}
+footer p{
+background:#333333;
+color:white;
+font-size:11px;
+padding: 8px 0px 0px 11px;
+
+}
